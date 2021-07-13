@@ -2,7 +2,7 @@
   "name": "@gandresto/example",
   "description": "Hello world express server",
   "author": "Andrés González",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./dist/",
   "scripts": {
     "start": "node .",
