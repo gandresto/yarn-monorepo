@@ -5,7 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "commit": "cz"
+    "format": "prettier --write \"packages/*/src/**/*.ts\" \"packages/*/test/**/*.ts\"",
+    "commit": "cz",
+    "build": "yarn workspaces foreach run build",
+    "start": "yarn workspaces foreach run start"
   },
   "config": {
     "commitizen": {
